@@ -52,6 +52,7 @@ def plume_check():
 
 
 def start_plume():
+    logger.info("------------------------开始执行------------------------")
     current_dir = os.path.dirname(__file__)
     lines = read_address_line([current_dir + "/wallet.txt"])
     while True:
